@@ -1,4 +1,4 @@
-# README — Ansible Configuration Management (Automate Project 7→10)
+# Ansible Configuration Management (Automate Project 7→10)
 
 *Comprehensive step-by-step guide for the `ansible-config-mgt` repo (Jenkins-Ansible controller + playbooks + inventory).*
 
@@ -68,7 +68,7 @@ Check version:
 ```bash
 ansible --version
 ```
-
+ ![Images](images/image1.png)
 ---
 
 # 4. GitHub repository & Jenkins job
@@ -289,6 +289,7 @@ From the `ansible-config-mgt` repo on the Jenkins-Ansible instance or locally (w
 # from repo root
 ansible-playbook -i inventory/dev.ini playbooks/common.yml
 ```
+ ![Images](images/image3.png)
 
 Verify on target servers:
 
@@ -315,6 +316,7 @@ List files:
 ```bash
 ls -la /var/lib/jenkins/jobs/ansible/builds/42/archive/
 ```
+ ![Images](images/image2.png)
 
 ---
 
